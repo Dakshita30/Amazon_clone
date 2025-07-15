@@ -1,0 +1,39 @@
+#square:hover{
+    background-color: cornflowerblue;
+}
+#diamond:hover{
+    background-color: crimson;
+}
+#circle:hover{
+    background-color: blueviolet;
+    
+}
+#circle{
+    border-radius:50%;
+}
+#diamond{
+    rotate:45deg;
+    margin-top:50px;
+}
+#diamond h1{
+    rotate:-45deg;
+
+}
+html,body{
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shapes{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    margin:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}

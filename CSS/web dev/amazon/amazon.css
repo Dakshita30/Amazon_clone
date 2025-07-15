@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:border-box;
+
+}
+.navbar{
+    height:10vh;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url("https://assets.onecompiler.app/4356t2nwg/4356t32f9/amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100%;
+
+}
+.sec{
+    display: flex;
+}
+
+.a1{
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left:15px;
+}
+.a2{
+    display:flex;
+    font-size:1rem;
+    margin-left:10px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.navsearch{
+    display:flex;
+}
+.navsearch:hover{
+    border:2px solid rgb(255,174,0);
+}
+.search{
+    width:50px;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.searchbar input{
+    font-size: 1rem;
+    height:30px;
+    width:800px;
+    border:none;
+}
+.searchicon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255,174,0);
+    height:30px;
+    width:40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 1.2rem;
+    color:#0f1111;
+
+}
+.line1{
+    font-size: 0.85rem;;
+}
+.line2{
+     font-size: 1rem;
+     font-weight: 700;
+}
+.cart{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.carticon{
+    height:30px;
+    font-size :1.2rem;
+}
+.panel{
+    height:5vh;
+    width:100%;
+    background-color: #222f3d;
+    display:flex;
+    align-items: center;
+  
+    color:white;
+ 
+}
+.first{
+    display: flex;
+    font-size: 1rem;
+    margin-right:20px;
+}
+.first:hover{
+    border:2px solid white;
+}
+.second{
+    display:flex;
+    font-size:1rem;
+    
+    width:70%;
+}
+.second p{
+    margin:10px;
+}
+.second p:hover{
+    border:2px solid white;
+}
+.hero-sec{
+    background-image: url("amazon\ bg.jpg");
+    height:350px;
+    width:100%;
+    background-size: cover;
+    display:flex;
+}
+.boxcon{
+    margin:10px;
+}
+.whitestrip{
+   
+    height:40px;
+    width:98%;
+    background-color: white;
+    color:black;
+    margin-top: 270px;
+    margin-left:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.whitestrip a{
+    color:#007185;
+}
+.shop,.shop2{
+    display:flex;
+    background-color: rgb(234, 206, 216);
+    justify-content: space-evenly;
+}
+.box{
+    
+    width:23%;
+    height:400px;
+    
+    
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    color:black;
+  background-color: white;
+    font-size: 1.5rem;
+    margin:1rem;
+}
+.box1 a,.box2 a,.box3 a,.box1 a,.box4 a,.box5 a,.box6 a,.box7 a,.box8 a{
+    color:#007185;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.box1 img,.box3 img,.box4 img,.box5 img,.box8 img{
+    height:300px;
+    width:90%;
+    margin-left:1rem;
+}
+.box2 img,.box6 img,.box7 img{
+    height:280px;
+    width:90%;
+    margin-left:1rem;
+}
+.footerpan1{
+    height:50px;
+    color:white;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.footerpan2{
+    height:300px;
+    background-color:#0f1111 ;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-top:1px solid white;
+}
+.footerpan2 ul{
+    display:block;
+}
+ul p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+ul a{
+    display:block;
+    color:#dddddd;
+    font-size: 0.9rem;
+    margin-top:10px;
+}
+.list3{
+ height:150px;
+}
+.footerpan3{
+    height:100px;
+    width:100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1111;
+}
+.lastlogo{
+    background-image: url("https://assets.onecompiler.app/4356t2nwg/4356t32f9/amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100px;  
+}
+.footerpan4{
+    height:50px;
+    width:100%;
+ color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1111;
+}
+.lastline{
+    height:20px;
+    width:100%;
+ color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1111;
+}
